@@ -57,13 +57,6 @@ This FastAPI application provides services to upload PDF files, convert them to 
 uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 ```
 
-### Production (IIS on Windows)
-
-1. Set up a virtual environment and install dependencies
-2. Install the required Windows features for IIS and Python hosting
-3. Configure the application in IIS using the provided `web.config`
-4. Ensure Poppler is installed and accessible in the PATH
-
 ## API Endpoints
 
 ### Health Checks
