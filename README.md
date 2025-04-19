@@ -26,13 +26,6 @@ This project consists of two main components:
 - Secure storage in AWS S3
 - Automatic cleanup of local files after processing
 
-## Deployment Architecture
-
-- **Web Server**: Windows IIS 
-- **Frontend**: Static files served by IIS with URL rewriting
-- **Backend**: Python FastAPI running under IIS with FastCGI
-- **Storage**: AWS S3 for long-term image storage
-
 ## Requirements
 
 ### Frontend
