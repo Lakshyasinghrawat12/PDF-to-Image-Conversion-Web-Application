@@ -100,4 +100,3 @@ uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 - Ensure Poppler is correctly installed and accessible in PATH
 - Check logs for specific error messages
 - Verify AWS credentials are correct
-- Ensure IIS has appropriate permissions to access directories and execute commands
